@@ -18,4 +18,8 @@ contract Calculator {
         result *= num;
     }
 
+    function division(uint256 num) public {
+        result /= num;
+    }
+
 }
